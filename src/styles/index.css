@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.slider-container {
+    width: 1216px;
+    height: auto;
+    padding: 40px;
+    border: 2px solid #E4E7F2;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comment-text {
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #0071CE;
+}
+
+.carousel {
+    display: flex;
+    margin: 20px 0;
+    background-color: #F5FBFF;
+    border-radius: 16px;
+}
+
+.comment-container {
+    display: flex;
+    align-items: center;
+    margin: 16px 24px;
+  }
+
+.comment-content {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.progressBar {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+  
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #E0F1FF;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #99C6EB;
+}
+  
+.name {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F7C98;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+  
+.body {
+    font-size: 16px;
+    line-height: 20px;
+    color: #3B4168;
+    margin: 8px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+  
+.email {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F7C98;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+  
+.font-plex {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 4px;
+}
+
+.current-slide {
+    color: #0071CE;
+    font-weight: 500;
+}
+
+.divider {
+    color: #E4E7F2;
+    margin-left: 4px;
+}
+
+.total-slides {
+    color: #E4E7F2;
+    margin-left: 4px;
+}
+  
